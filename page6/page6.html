@@ -7,19 +7,21 @@
     <title>Page 6</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Contador de dias</h1>
-        <div>
+        <div class="flex">
             <label>Fecha 1</label>
             <input type="date" id="date1">
+        </div>
+        <div class="flex">
             <label>Fecha 2</label>
             <input type="date" id="date2">
-            <button id="btn">
-                Contar
-            </button>
         </div>
-        <div>
-            La diferencia de dias es de:<p id="res"></p>
+        <button id="btn">
+            Contar
+        </button>
+        <div class="flex">
+            <p>La diferencia de dias es de:</p><p id="res"></p>
         </div>
     </div>
 </body>
