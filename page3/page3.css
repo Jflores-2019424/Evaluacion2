@@ -18,6 +18,31 @@ p{
     margin-right: 6px;
 }
 
+input{
+    height: 5%;
+    width: 30vh;
+    font-size: 2vh;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    width: 20vh;
+    height: 5vh;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
 .flex{
     display: flex;
 }
