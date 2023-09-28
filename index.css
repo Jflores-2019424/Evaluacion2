@@ -59,3 +59,13 @@ a:active{
     transition: 0.2s;
     box-shadow: rgba(111, 46, 240, 0.659) 0px 0px 0px 5px, rgba(111, 46, 240, 0.653) 0px 0px 0px 10px
 }
+
+@media screen and (max-width: 1200px) {
+    a{
+        font-size: 2vh;
+        margin: 1vh;
+    }
+    h1{
+        font-size: 5vh;
+    }
+}
